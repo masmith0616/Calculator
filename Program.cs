@@ -26,12 +26,7 @@ do
 static void EquationBuilder(string eq)
 {
     //Part 1. Convert string to string[]
-    string[] elements = eq.Trim().Split(" ");             //Here's where it gets tricky.  I now have an array of parsable numbers and an mathmatical operator.;
-    // foreach (string element in elements)                  //Printing to verify array build
-    // {
-    //     Console.Write($"Equation elements:  ");
-    //     Console.WriteLine($"{element}, ");
-    // }
+    string[] elements = eq.Trim().Split(" ");
     CharConversion(elements);
 }
 
@@ -50,10 +45,7 @@ static void CharConversion(string[] elements)
         {
             numbers[i] = num;
         }
-        // Console.WriteLine($"Number{i}:  {numbers[i]}");
-        // Console.WriteLine($"Mathmatical Operator:   {mathSymbol}");
     }
-    // Console.WriteLine($"Your equation is {numbers[0]} {mathSymbol} {numbers[1]}");
     Console.WriteLine(ConductMath(numbers, mathSymbol));
 }
 
