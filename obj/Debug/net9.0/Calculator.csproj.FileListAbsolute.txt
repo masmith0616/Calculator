@@ -12,3 +12,4 @@ C:\Users\masmi\OneDrive\Documents\14. VS Code Projects\Calculator\obj\Debug\net9
 C:\Users\masmi\OneDrive\Documents\14. VS Code Projects\Calculator\obj\Debug\net9.0\Calculator.pdb
 C:\Users\masmi\OneDrive\Documents\14. VS Code Projects\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
 C:\Users\masmi\OneDrive\Documents\14. VS Code Projects\Calculator\obj\Debug\net9.0\ref\Calculator.dll
+C:\Users\masmi\OneDrive\Documents\14. VS Code Projects\Calculator\obj\Debug\net9.0\Calculator.sourcelink.json
